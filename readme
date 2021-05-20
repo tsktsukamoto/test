@@ -1,0 +1,3 @@
+SRCURL公開用のサンプルサーバ
+
+SRC_URI = "git://github.com/tsktsukamoto/test.git"
