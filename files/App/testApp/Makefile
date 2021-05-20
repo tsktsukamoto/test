@@ -32,8 +32,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = testApp1.0.0
-LFLAGS        = -Wl,-rpath,/home/tokai-soft/work/build/tmp/work/aarch64-poky-linux/qtbase/5.6.3+gitAUTOINC+e6f8b072d2-r0/sysroot-destdir/usr/lib64 \
--Wl,-rpath-link,/home/tokai-soft/work/build/tmp/sysroots-components/aarch64/imx-gpu-viv/usr/lib64/ \
+LFLAGS        = -Wl,-rpath-link,/home/tokai-soft/work/build/tmp/sysroots-components/aarch64/imx-gpu-viv/usr/lib64/ \
 -Wl,-rpath-link,/home/tokai-soft/work/build/tmp/sysroots-components/aarch64/libpng/usr/lib64/ \
 -Wl,-rpath-link,/home/tokai-soft/work/build/tmp/sysroots-components/aarch64/harfbuzz/usr/lib64/ \
 -Wl,-rpath-link,/home/tokai-soft/work/build/tmp/sysroots-components/aarch64/icu/usr/lib64/ \
